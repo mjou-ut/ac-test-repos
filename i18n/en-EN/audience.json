@@ -1,920 +1,920 @@
 {
   "loading": {
-    "generic": "Loading"
+    "generic": "Chargement"
   },
   "notificationBanner": {
-    "close": "Close notification"
+    "close": "Fermer la notification"
   },
   "sidebar": {
-    "addAudience": "Add audience",
-    "addBtn": "Add",
+    "addAudience": "Ajouter une audience",
+    "addBtn": "Ajouter",
     "title": "Audiences",
-    "disabledTooltip": "Select who you’d like to test with in your current audience before adding another one",
-    "warning": "Recruitment method not selected",
-    "addDisabledTooltip": "Pause the study to be able to add audiences",
-    "completeAudienceBeforeAdding": "Select who you’d like to test with in your current audience before adding another one",
+    "disabledTooltip": "Sélectionnez avec qui vous aimeriez tester dans votre audience actuelle avant d'en ajouter une autre",
+    "warning": "Méthode de recrutement non sélectionnée",
+    "addDisabledTooltip": "Mettez l'étude en pause pour pouvoir ajouter des audiences",
+    "completeAudienceBeforeAdding": "Sélectionnez avec qui vous aimeriez tester dans votre audience actuelle avant d'en ajouter une autre",
     "deleteButton": {
-      "hasCompletesTooltip": "You have responses from this audience, it cannot be deleted.",
-      "hasScheduledSessionsTooltip": "This audience has scheduled sessions, it cannot be deleted."
+      "hasCompletesTooltip": "Vous avez des réponses de cette audience, elle ne peut pas être supprimée.",
+      "hasScheduledSessionsTooltip": "Cette audience a des sessions programmées, elle ne peut pas être supprimée."
     },
     "duplicateAudienceModal": {
-      "title": "Duplicate audience",
-      "inputLabel": "Name new audience",
-      "inputPlaceholder": "Enter audience name",
-      "description": "Any targeting criteria, screener questions, and confidentiality terms that you've set will be copied over. You can edit these later. <br><br> Your new audience will be added to the \"Audiences\" section.",
-      "copyInputAudienceName": "(COPY) {{audienceName}}"
+      "title": "Dupliquer l'audience",
+      "inputLabel": "Nommer la nouvelle audience",
+      "inputPlaceholder": "Entrer le nom de l'audience",
+      "description": "Tous les critères de ciblage, les questions de présélection et les conditions de confidentialité que vous avez définis seront copiés. Vous pourrez les modifier ultérieurement. <br><br> Votre nouvelle audience sera ajoutée à la section \"Audiences\".",
+      "copyInputAudienceName": "(COPIE) {{audienceName}}"
     },
     "deleteAudienceModal": {
-      "title": "Delete audience?",
-      "description": "This audience will be permanently deleted and removed from \"Audiences\" section.",
-      "confirm": "Delete",
-      "cancel": "Keep audience"
+      "title": "Supprimer l'audience ?",
+      "description": "Cette audience sera définitivement supprimée et retirée de la section \"Audiences\".",
+      "confirm": "Supprimer",
+      "cancel": "Conserver l'audience"
     }
   },
   "generic": {
     "audiences": "Audiences"
   },
   "settings": {
-    "defaultName": "Untitled audience",
-    "defaultCampaignName": "Untitled test",
-    "quotaLabel": "How many participants do you need?",
-    "unlimitedLabel": "Unlimited",
+    "defaultName": "Audience sans titre",
+    "defaultCampaignName": "Test sans titre",
+    "quotaLabel": "De combien de participants avez-vous besoin ?",
+    "unlimitedLabel": "Illimité",
     "errors": {
-      "audience-quota-zero": "Enter a number greater than 0",
-      "audience-quota-above-max": "Participant limit exceeded. Enter {{maxQuota}} or lower.",
-      "audience-quota-below-completes": "Enter a number equal or higher than the ({{completes}}) responses",
-      "audience-quota-below-completes-live-conversation": "Enter a number equal to or greater than your total responses and scheduled sessions ({{completes}})",
-      "audience-participant-list-size-below-quota": "Only {{participantCount}} participants in this list. Enter {{participantCount}} or fewer, or select another list."
+      "audience-quota-zero": "Entrer un nombre supérieur à 0",
+      "audience-quota-above-max": "Limite de participants dépassée. Entrer {{maxQuota}} ou moins.",
+      "audience-quota-below-completes": "Entrer un nombre égal ou supérieur aux ({{completes}}) réponses",
+      "audience-quota-below-completes-live-conversation": "Entrer un nombre égal ou supérieur au total de vos réponses et sessions programmées ({{completes}})",
+      "audience-participant-list-size-below-quota": "Seulement {{participantCount}} participants dans cette liste. Entrer {{participantCount}} ou moins, ou sélectionner une autre liste."
     }
   },
   "shared": {
-    "noAudiencesMessage": "Start recruiting your participants by adding a target audience",
-    "noAudiencesTitle": "Who do you want to learn from?"
+    "noAudiencesMessage": "Commencez à recruter vos participants en ajoutant une audience cible",
+    "noAudiencesTitle": "De qui voulez-vous apprendre ?"
   },
   "common": {
-    "add": "Add",
-    "and": "and",
-    "delete": "Delete",
-    "or": "or",
-    "to": "to",
-    "close": "Close",
-    "loading": "Loading",
-    "edit": "Edit",
-    "moveUp": "Move up",
-    "moveDown": "Move down",
-    "duplicate": "Duplicate",
-    "default": "Default",
-    "custom": "Custom",
-    "none": "None",
-    "back": "Back",
-    "other": "Other",
-    "view": "View",
-    "cancel": "Cancel",
-    "clear": "Clear",
-    "all": "All",
-    "new": "New",
-    "years": "years"
+    "add": "Ajouter",
+    "and": "et",
+    "delete": "Supprimer",
+    "or": "ou",
+    "to": "à",
+    "close": "Fermer",
+    "loading": "Chargement",
+    "edit": "Modifier",
+    "moveUp": "Déplacer vers le haut",
+    "moveDown": "Déplacer vers le bas",
+    "duplicate": "Dupliquer",
+    "default": "Par défaut",
+    "custom": "Personnalisé",
+    "none": "Aucun",
+    "back": "Retour",
+    "other": "Autre",
+    "view": "Voir",
+    "cancel": "Annuler",
+    "clear": "Effacer",
+    "all": "Tous",
+    "new": "Nouveau",
+    "years": "ans"
   },
   "criteria": {
     "criteriaSet": {
       "standard": {
-        "label": "Standard criteria",
-        "description": "Target participants from the general population"
+        "label": "Critères standards",
+        "description": "Cibler les participants de la population générale"
       },
       "premium": {
-        "label": "Advanced criteria",
-        "description": "Target niche or hard-to-reach participants",
-        "lockedLabel": "Locked"
+        "label": "Critères avancés",
+        "description": "Cibler des participants de niche ou difficiles à atteindre",
+        "lockedLabel": "Verrouillé"
       },
       "changeSetModal": {
-        "titleToPremium": "Switch to advanced criteria?",
-        "titleToStandard": "Switch to standard criteria?",
-        "bodyStandardToPremium": "Your current targeting criteria will be removed when you switch to advanced. You’ll need to select criteria again.",
-        "bodyPremiumToStandard": "Your current targeting criteria will be removed when you switch to standard. You’ll need to select criteria again.",
-        "stayOnStandard": "Keep standard",
-        "stayOnPremium": "Keep advanced",
-        "switchToPremium": "Switch to advanced",
-        "switchToStandard": "Switch to standard",
-        "title": "Change criteria set"
+        "titleToPremium": "Passer aux critères avancés ?",
+        "titleToStandard": "Passer aux critères standards ?",
+        "bodyStandardToPremium": "Vos critères de ciblage actuels seront supprimés lorsque vous passerez aux critères avancés. Vous devrez sélectionner à nouveau les critères.",
+        "bodyPremiumToStandard": "Vos critères de ciblage actuels seront supprimés lorsque vous passerez aux critères standards. Vous devrez sélectionner à nouveau les critères.",
+        "stayOnStandard": "Conserver les standards",
+        "stayOnPremium": "Conserver les avancés",
+        "switchToPremium": "Passer aux avancés",
+        "switchToStandard": "Passer aux standards",
+        "title": "Changer l'ensemble de critères"
       }
     },
-    "addCriteria": "Additional criteria",
-    "editCriteria": "Edit criteria",
-    "compareSets": "Compare criteria sets",
-    "selectedCount": "{{selected}} of {{total}} selected",
-    "unlockAdvanced": "Unlock advanced criteria",
+    "addCriteria": "Critères supplémentaires",
+    "editCriteria": "Modifier les critères",
+    "compareSets": "Comparer les ensembles de critères",
+    "selectedCount": "{{selected}} sur {{total}} sélectionnés",
+    "unlockAdvanced": "Déverrouiller les critères avancés",
     "addCriteriaModal": {
-      "title": "Add criteria",
-      "subtitle": "Select a criteria set, then refine your audience.",
-      "apply": "Apply criteria"
+      "title": "Ajouter des critères",
+      "subtitle": "Sélectionnez un ensemble de critères, puis affinez votre audience.",
+      "apply": "Appliquer les critères"
     },
     "compareSetsPopover": {
-      "title": "Compare criteria sets",
-      "feature": "Feature",
+      "title": "Comparer les ensembles de critères",
+      "feature": "Fonctionnalité",
       "standard": "Standard",
-      "advanced": "Advanced",
-      "recommendedFor": "Recommended for",
-      "recommendedForStandard": "General consumer audiences",
-      "recommendedForAdvanced": "B2B and niche B2C audiences",
-      "audienceTargeting": "Audience targeting",
-      "audienceTargetingStandard": "10+ demographics",
-      "audienceTargetingAdvanced": "40+ demographics",
-      "insightDepth": "Insight depth",
-      "insightDepthStandard": "General insights",
-      "insightDepthAdvanced": "Specialist insights",
-      "productsServicesTargeting": "Products & Services targeting",
-      "productsServicesTargetingStandard": "Not available",
-      "productsServicesTargetingAdvanced": "Available",
-      "incentives": "Incentives",
-      "incentivesStandard": "Fixed",
+      "advanced": "Avancé",
+      "recommendedFor": "Recommandé pour",
+      "recommendedForStandard": "Audiences de consommateurs généraux",
+      "recommendedForAdvanced": "Audiences B2B et B2C de niche",
+      "audienceTargeting": "Ciblage d'audience",
+      "audienceTargetingStandard": "Plus de 10 données démographiques",
+      "audienceTargetingAdvanced": "Plus de 40 données démographiques",
+      "insightDepth": "Profondeur des insights",
+      "insightDepthStandard": "Insights généraux",
+      "insightDepthAdvanced": "Insights spécialisés",
+      "productsServicesTargeting": "Ciblage Produits et Services",
+      "productsServicesTargetingStandard": "Non disponible",
+      "productsServicesTargetingAdvanced": "Disponible",
+      "incentives": "Incitatifs",
+      "incentivesStandard": "Fixe",
       "incentivesAdvanced": "Flexible"
     },
     "premiumCriteriaPopover": {
-      "title": "Unlock advanced criteria",
-      "subtitle": "Powered by UserInterviews",
-      "description": "Access advanced targeting to recruit hard-to-reach participants.",
-      "toGetAccess": "To get access:",
-      "liveConversationTag": "Coming soon",
-      "contactCustomerSuccessManager": "Contact your Customer Success Manager to upgrade your plan.",
-      "liveConversationTitle": "Coming soon for Live Conversation tests",
-      "liveConversationDescription": "Advanced targeting and custom incentives will be available for Live Conversation tests soon. You can recruit as usual using standard targeting criteria."
+      "title": "Déverrouiller les critères avancés",
+      "subtitle": "Propulsé par UserInterviews",
+      "description": "Accédez au ciblage avancé pour recruter des participants difficiles à atteindre.",
+      "toGetAccess": "Pour obtenir l'accès :",
+      "liveConversationTag": "Bientôt disponible",
+      "contactCustomerSuccessManager": "Contactez votre responsable de la réussite client pour mettre à niveau votre forfait.",
+      "liveConversationTitle": "Bientôt disponible pour les tests de conversation en direct",
+      "liveConversationDescription": "Le ciblage avancé et les incitatifs personnalisés seront bientôt disponibles pour les tests de conversation en direct. Vous pouvez recruter comme d'habitude en utilisant les critères de ciblage standards."
     },
     "premiumCriteriaFooter": {
-      "lockedPromptPrefix": "Want to reach <strong>niche</strong> or <strong>hard-to-reach</strong> participants?",
-      "lockedContactAccountAdmin": "Contact your account admin",
-      "lockedPromptSuffix": "to unlock advanced targeting and custom incentives.",
-      "unlockedPrompt": "Your plan includes <strong>advanced targeting</strong> and <strong>custom incentives</strong> for more precise recruitment.",
-      "provider": "Powered by User Interviews",
-      "liveConversationFooter": "These features are coming soon for Live Conversation tests. You can recruit as usual using standard targeting and default incentives."
+      "lockedPromptPrefix": "Vous souhaitez atteindre des participants <strong>de niche</strong> ou <strong>difficiles à atteindre</strong> ?",
+      "lockedContactAccountAdmin": "Contactez votre administrateur de compte",
+      "lockedPromptSuffix": "pour déverrouiller le ciblage avancé et les incitatifs personnalisés.",
+      "unlockedPrompt": "Votre forfait inclut le <strong>ciblage avancé</strong> et les <strong>incitatifs personnalisés</strong> pour un recrutement plus précis.",
+      "provider": "Propulsé par User Interviews",
+      "liveConversationFooter": "Ces fonctionnalités seront bientôt disponibles pour les tests de conversation en direct. Vous pouvez recruter comme d'habitude en utilisant le ciblage standard et les incitatifs par défaut."
     },
     "categories": {
-      "origin": "Most popular",
-      "basis": "Most popular",
-      "personal": "Personal",
-      "demographics": "Demographics",
-      "household": "Household",
-      "occupation": "Professional",
-      "professional": "Professional",
-      "productsAndServices": "Products & Services",
-      "technology": "Technical",
-      "technical": "Technical"
+      "origin": "Les plus populaires",
+      "basis": "Les plus populaires",
+      "personal": "Personnel",
+      "demographics": "Démographie",
+      "household": "Ménage",
+      "occupation": "Professionnel",
+      "professional": "Professionnel",
+      "productsAndServices": "Produits et Services",
+      "technology": "Technique",
+      "technical": "Technique"
     },
-    "added": "Added",
-    "criteriaRemoved": " options cleared",
-    "title": "Targeting criteria",
-    "searchPlaceholder": "Search target criteria...",
-    "noSearchResults": "We couldn’t find that criteria. Try a different search term and we’ll have another look.",
+    "added": "Ajouté",
+    "criteriaRemoved": " options effacées",
+    "title": "Critères de ciblage",
+    "searchPlaceholder": "Rechercher des critères cibles...",
+    "noSearchResults": "Nous n'avons pas trouvé ce critère. Essayez un terme de recherche différent et nous chercherons à nouveau.",
     "search": {
-      "ariaLabel": "Search target criteria",
+      "ariaLabel": "Rechercher des critères cibles",
       "emptyState": {
-        "title": "No results found",
-        "description": "Check what you typed and try again."
+        "title": "Aucun résultat trouvé",
+        "description": "Vérifiez ce que vous avez tapé et réessayez."
       },
-      "hiddenByFilter": "Hidden by search filter"
+      "hiddenByFilter": "Masqué par le filtre de recherche"
     },
     "typeahead": {
-      "placeholder": "Type to search...",
-      "ariaLabel": "Search options",
-      "emptyHint": "Type minimum 2 characters to search"
+      "placeholder": "Tapez pour rechercher...",
+      "ariaLabel": "Rechercher des options",
+      "emptyHint": "Tapez au minimum 2 caractères pour rechercher"
     },
-    "selectPlaceholder": "Please select...",
+    "selectPlaceholder": "Veuillez sélectionner...",
     "countrySpecific": {
-      "countryDisabledTooltip": "The target country cannot be changed. To test in a different country, add another audience.",
-      "selectCountryFirstWarning": "{{name}} options differ across countries. First, select a country.",
-      "selectCountryFirstTooltip": "Select a country first. {{name}} options differ across countries.",
-      "infoText": "Available {{name}} options for {{country}}.",
-      "optionsClearedConfirmation": "{{criteria_list}} options cleared.",
-      "onlyAvailableInText": "Only available in {{criteria_list}}. First, select a country.",
-      "selectTheCountry": "select the country.",
-      "onlyAvailableWhenTooltip": "Only available when targeting {{country_list}}",
-      "notAvailableWhen": "Not available when targeting {{country}}",
-      "availableExceptionsText": "Available in all countries except {{country}}. First,",
+      "countryDisabledTooltip": "Le pays cible ne peut pas être modifié. Pour tester dans un autre pays, ajoutez une autre audience.",
+      "selectCountryFirstWarning": "Les options de {{name}} diffèrent selon les pays. D'abord, sélectionnez un pays.",
+      "selectCountryFirstTooltip": "Sélectionnez d'abord un pays. Les options de {{name}} diffèrent selon les pays.",
+      "infoText": "Options {{name}} disponibles pour {{country}}.",
+      "optionsClearedConfirmation": "Options {{criteria_list}} effacées.",
+      "onlyAvailableInText": "Disponible uniquement dans {{criteria_list}}. D'abord, sélectionnez un pays.",
+      "selectTheCountry": "sélectionnez le pays.",
+      "onlyAvailableWhenTooltip": "Disponible uniquement lors du ciblage de {{country_list}}",
+      "notAvailableWhen": "Non disponible lors du ciblage de {{country}}",
+      "availableExceptionsText": "Disponible dans tous les pays sauf {{country}}. D'abord,",
       "modals": {
         "removeCountry": {
-          "header": "Remove country?",
-          "body": "If you remove the target country, the specific targeting options related to it will be cleared.",
-          "premiumBody": "If you remove the target country, your advanced targeting criteria will be removed.",
-          "primaryCTA": "Remove country",
-          "secondaryCTA": "Keep country"
+          "header": "Supprimer le pays ?",
+          "body": "Si vous supprimez le pays cible, les options de ciblage spécifiques qui y sont liées seront effacées.",
+          "premiumBody": "Si vous supprimez le pays cible, vos critères de ciblage avancés seront supprimés.",
+          "primaryCTA": "Supprimer le pays",
+          "secondaryCTA": "Conserver le pays"
         },
         "changeCountry": {
-          "header": "Change country?",
-          "body": "If you change the target country, the specific targeting options related to it will be cleared.",
-          "premiumBody": "If you change the target country, your advanced targeting criteria will be removed.",
-          "primaryCTA": "Change country",
-          "secondaryCTA": "Keep country"
+          "header": "Changer de pays ?",
+          "body": "Si vous changez le pays cible, les options de ciblage spécifiques qui y sont liées seront effacées.",
+          "premiumBody": "Si vous changez le pays cible, vos critères de ciblage avancés seront supprimés.",
+          "primaryCTA": "Changer de pays",
+          "secondaryCTA": "Conserver le pays"
         }
       }
     },
     "range": {
       "invalidRangeErrorMessage": {
-        "age": "Participants age must be between 18 and 90"
+        "age": "L'âge des participants doit être compris entre 18 et 90 ans"
       },
       "rangeErrorMessage": {
-        "age": "Add the lowest age first"
+        "age": "Ajoutez d'abord l'âge le plus bas"
       },
-      "from": "From",
-      "to": "To",
-      "minAgeLabel": "Min age",
-      "maxAgeLabel": "Max age"
+      "from": "De",
+      "to": "À",
+      "minAgeLabel": "Âge minimum",
+      "maxAgeLabel": "Âge maximum"
     },
     "names": {
-      "age": "Age range",
-      "companySize": "Company size",
-      "country": "Country",
-      "employment": "Employment",
-      "gender": "Gender",
-      "income": "Household income",
-      "industry": "Industry",
-      "investableAssets": "Household investable assets",
-      "investment": "Savings / Investment accounts",
-      "jobDepartment": "Job Department",
-      "jobTitle": "Job level",
-      "mobileCarrier": "Mobile Carrier",
-      "region": "Region",
-      "language": "Language",
-      "parentalStatus": "Parental Status",
-      "socialNetwork": "Social Network",
-      "golden_country": "Country",
-      "golden_age": "Age",
-      "golden_race_ethnicity": "Race / Ethnicity (US)",
-      "golden_gender": "Gender",
-      "golden_household_income_usd": "Household Income (US)",
-      "golden_employment_status": "Employment Status",
-      "golden_military_service_status": "Military Service Status",
-      "golden_seniority": "Seniority",
-      "golden_small_business_owner": "Small Business Owner",
-      "golden_company_size": "Company Size",
-      "golden_industry": "Industry",
-      "golden_work_setting": "Work Setting",
-      "golden_income_type": "Type of Income",
-      "golden_education_level": "Level of Education",
-      "golden_marital_status": "Marital Status",
-      "golden_living_situation": "Living Situation",
-      "golden_neighborhood_type": "Neighborhood Type",
-      "golden_home_owner": "Home Owner",
-      "golden_english_proficiency": "English Language Proficiency – Speaking",
-      "golden_gig_or_contract_occupations": "Gig or Contract Occupation(s)",
-      "golden_other_languages_spoken": "Other Language(s) Spoken Fluently",
-      "golden_children": "Children",
-      "golden_pets": "Pets Owned",
-      "golden_health_insurance_types": "Health Insurance Type(s)",
-      "golden_disabilities": "Disabilities",
-      "golden_productivity_project_management_software": "Productivity/PM Software",
-      "golden_digital_design_prototyping_tools": "Digital Design/Prototyping Tools",
-      "golden_online_marketplace_platforms": "Online Marketplace Platforms",
-      "golden_has_computer_with_webcam": "Computer with a Webcam",
-      "golden_online_streaming_services": "Online Streaming Services",
-      "golden_online_learning_platforms": "Online Learning/Educational Platforms",
-      "golden_food_delivery_services": "Food Delivery Services",
-      "golden_financial_management_tools": "Online Banking/Financial Tools",
-      "golden_health_and_wellness_platforms": "Health and Wellness Apps",
-      "golden_social_networking_platforms": "Social Networking Platforms",
-      "golden_travel_booking_services": "Online Travel Booking Services",
-      "golden_vehicles_owned_or_leased": "Vehicles Currently Owned or Leased",
-      "golden_traditional_banks": "Traditional Banks",
-      "golden_smart_home_and_gaming_devices": "Smart Home and Gaming Devices",
-      "golden_browsers": "Browsers",
-      "golden_computer_operating_system": "Computer Operating System",
-      "golden_smartphone_operating_system": "Smartphone Operating System",
-      "golden_tablet_operating_system": "Tablet Operating System",
-      "golden_assistive_technologies_and_custom_settings": "Assistive Technologies & Custom Settings",
-      "golden_occupation_groups": "Occupation Groups",
-      "golden_region": "Region"
+      "age": "Tranche d'âge",
+      "companySize": "Taille de l'entreprise",
+      "country": "Pays",
+      "employment": "Emploi",
+      "gender": "Genre",
+      "income": "Revenu du ménage",
+      "industry": "Industrie",
+      "investableAssets": "Actifs investissables du ménage",
+      "investment": "Comptes d'épargne / d'investissement",
+      "jobDepartment": "Département",
+      "jobTitle": "Niveau de poste",
+      "mobileCarrier": "Opérateur mobile",
+      "region": "Région",
+      "language": "Langue",
+      "parentalStatus": "Statut parental",
+      "socialNetwork": "Réseau social",
+      "golden_country": "Pays",
+      "golden_age": "Âge",
+      "golden_race_ethnicity": "Race / Origine ethnique (États-Unis)",
+      "golden_gender": "Genre",
+      "golden_household_income_usd": "Revenu du ménage (États-Unis)",
+      "golden_employment_status": "Statut d'emploi",
+      "golden_military_service_status": "Statut de service militaire",
+      "golden_seniority": "Ancienneté",
+      "golden_small_business_owner": "Propriétaire de petite entreprise",
+      "golden_company_size": "Taille de l'entreprise",
+      "golden_industry": "Industrie",
+      "golden_work_setting": "Environnement de travail",
+      "golden_income_type": "Type de revenu",
+      "golden_education_level": "Niveau d'éducation",
+      "golden_marital_status": "État matrimonial",
+      "golden_living_situation": "Situation de logement",
+      "golden_neighborhood_type": "Type de quartier",
+      "golden_home_owner": "Propriétaire",
+      "golden_english_proficiency": "Maîtrise de l'anglais – Expression orale",
+      "golden_gig_or_contract_occupations": "Occupation(s) à la tâche ou contractuelle(s)",
+      "golden_other_languages_spoken": "Autre(s) langue(s) parlée(s) couramment",
+      "golden_children": "Enfants",
+      "golden_pets": "Animaux possédés",
+      "golden_health_insurance_types": "Type(s) d'assurance maladie",
+      "golden_disabilities": "Handicaps",
+      "golden_productivity_project_management_software": "Logiciel de productivité/gestion de projet",
+      "golden_digital_design_prototyping_tools": "Outils de conception/prototypage numérique",
+      "golden_online_marketplace_platforms": "Plateformes de marché en ligne",
+      "golden_has_computer_with_webcam": "Ordinateur avec webcam",
+      "golden_online_streaming_services": "Services de streaming en ligne",
+      "golden_online_learning_platforms": "Plateformes d'apprentissage/éducatives en ligne",
+      "golden_food_delivery_services": "Services de livraison de nourriture",
+      "golden_financial_management_tools": "Outils bancaires/financiers en ligne",
+      "golden_health_and_wellness_platforms": "Applications de santé et bien-être",
+      "golden_social_networking_platforms": "Plateformes de réseautage social",
+      "golden_travel_booking_services": "Services de réservation de voyages en ligne",
+      "golden_vehicles_owned_or_leased": "Véhicules actuellement possédés ou loués",
+      "golden_traditional_banks": "Banques traditionnelles",
+      "golden_smart_home_and_gaming_devices": "Appareils de maison intelligente et de jeu",
+      "golden_browsers": "Navigateurs",
+      "golden_computer_operating_system": "Système d'exploitation de l'ordinateur",
+      "golden_smartphone_operating_system": "Système d'exploitation du smartphone",
+      "golden_tablet_operating_system": "Système d'exploitation de la tablette",
+      "golden_assistive_technologies_and_custom_settings": "Technologies d'assistance et paramètres personnalisés",
+      "golden_occupation_groups": "Groupes professionnels",
+      "golden_region": "Région"
     },
     "targeting": {
-      "genderAll": "All Genders",
-      "anyGender": "Any gender",
-      "anyCountry": "Any country",
-      "addCriteria": "Add criteria",
-      "additionalCriteriaHeading": "Additional criteria",
-      "additionalCriteriaDescription": "Refine your audience with profession, hobbies, and more.",
-      "removeAdditionalOptionAriaLabel": "Remove {{optionLabel}} from {{criterionLabel}}",
-      "countryDefaultText": "Defaults to United States if no country is selected"
+      "genderAll": "Tous les genres",
+      "anyGender": "N'importe quel genre",
+      "anyCountry": "N'importe quel pays",
+      "addCriteria": "Ajouter des critères",
+      "additionalCriteriaHeading": "Critères supplémentaires",
+      "additionalCriteriaDescription": "Affinez votre audience avec la profession, les loisirs, et plus encore.",
+      "removeAdditionalOptionAriaLabel": "Supprimer {{optionLabel}} de {{criterionLabel}}",
+      "countryDefaultText": "Par défaut, États-Unis si aucun pays n'est sélectionné"
     },
     "premiumUsOnly": {
-      "title": "Not available for selected country",
-      "description": "Advanced criteria can only be used when targeting participants in the United States.",
-      "button": "Change to US"
+      "title": "Non disponible pour le pays sélectionné",
+      "description": "Les critères avancés ne peuvent être utilisés que lors du ciblage de participants aux États-Unis.",
+      "button": "Passer aux États-Unis"
     },
     "audienceSummary": {
-      "premiumRecruitmentTooltip": "This audience includes advanced targeting criteria and custom incentives"
+      "premiumRecruitmentTooltip": "Cette audience inclut des critères de ciblage avancés et des incitatifs personnalisés"
     }
   },
   "incompatibilityBanner": {
-    "header": "Review audience settings",
+    "header": "Vérifier les paramètres d'audience",
     "body": {
-      "info": "This audience was launched in the classic UserTesting experience. The following settings aren't supported in the current experience and have been removed:"
+      "info": "Cette audience a été lancée dans l'expérience UserTesting classique. Les paramètres suivants ne sont pas pris en charge dans l'expérience actuelle et ont été supprimés :"
     },
     "unsupportedSettings": {
       "notSupported": {
-        "operatingSystem": "Operating system",
-        "testFrequency": "Test frequency",
-        "webExpertise": "Web expertise",
-        "otherRequirements": "Other requirements - Open ended",
-        "webBrowser": "Web browsers",
-        "formFactor": "Device settings",
-        "excludedStudyIds": "Exclude contributors from previous tests"
+        "operatingSystem": "Système d'exploitation",
+        "testFrequency": "Fréquence de test",
+        "webExpertise": "Expertise web",
+        "otherRequirements": "Autres exigences - Question ouverte",
+        "webBrowser": "Navigateurs web",
+        "formFactor": "Paramètres de l'appareil",
+        "excludedStudyIds": "Exclure les contributeurs des tests précédents"
       },
       "incompatibleOptions": {
-        "jobFunction": "Job role",
-        "employmentStatus": "Employment status",
-        "companySize": "Company size",
-        "country": "Country",
-        "gender": "Gender",
-        "language": "Language",
-        "socialNetwork": "Social Network",
-        "industry": "Industry",
-        "age": "Age",
-        "income": "Household income",
-        "states": "States",
-        "seniority": "Seniority",
-        "hasChildren": "Has children"
+        "jobFunction": "Rôle professionnel",
+        "employmentStatus": "Statut d'emploi",
+        "companySize": "Taille de l'entreprise",
+        "country": "Pays",
+        "gender": "Genre",
+        "language": "Langue",
+        "socialNetwork": "Réseau social",
+        "industry": "Industrie",
+        "age": "Âge",
+        "income": "Revenu du ménage",
+        "states": "États",
+        "seniority": "Ancienneté",
+        "hasChildren": "A des enfants"
       },
-      "confidentialityDocument": "Confidentiality agreement"
+      "confidentialityDocument": "Accord de confidentialité"
     },
     "hoverStatus": {
-      "notSupported": "This setting has been removed. To target this criterion, use a screener question.",
-      "incompatibleOptions": "Setting removed because the answer options aren’t compatible. Try setting it up again using options available in the current experience.",
-      "confidentialityDocument": "Document removed, please add new terms below."
+      "notSupported": "Ce paramètre a été supprimé. Pour cibler ce critère, utilisez une question de présélection.",
+      "incompatibleOptions": "Paramètre supprimé car les options de réponse ne sont pas compatibles. Essayez de le configurer à nouveau en utilisant les options disponibles dans l'expérience actuelle.",
+      "confidentialityDocument": "Document supprimé, veuillez ajouter de nouvelles conditions ci-dessous."
     }
   },
   "screeners": {
-    "addAnswer": "Add answer",
-    "addQuestion": "Add a question",
-    "addQuestions": "Add screener questions",
-    "answers": "Answers",
-    "answerType": "Answer type",
-    "title": "Screen participants",
-    "multipleChoice": "Multiple choice",
-    "multiSelect": "Multi-select",
-    "noScreeners": "Ensure you get the right participants to provide feedback",
+    "addAnswer": "Ajouter une réponse",
+    "addQuestion": "Ajouter une question",
+    "addQuestions": "Ajouter des questions de présélection",
+    "answers": "Réponses",
+    "answerType": "Type de réponse",
+    "title": "Présélectionner les participants",
+    "multipleChoice": "Choix multiple",
+    "multiSelect": "Sélection multiple",
+    "noScreeners": "Assurez-vous d'obtenir les bons participants pour fournir des commentaires",
     "emptyCard": {
-      "description": "Add screener questions to decide who qualifies for your test",
-      "cta": "Add screener"
+      "description": "Ajoutez des questions de présélection pour décider qui est qualifié pour votre test",
+      "cta": "Ajouter une présélection"
     },
-    "qualifyingLogic": "Qualifying logic",
-    "questionText": "Question text",
-    "singleSelect": "Single select",
+    "qualifyingLogic": "Logique de qualification",
+    "questionText": "Texte de la question",
+    "singleSelect": "Sélection unique",
     "answerTypeModal": {
-      "switchTo": "Switch to {{answerType}}",
-      "description": "Changing answer type to {{answerType}} will remove this question's logic rules.",
-      "findOutMore": "Find out more about logic"
+      "switchTo": "Passer à {{answerType}}",
+      "description": "Le changement de type de réponse en {{answerType}} supprimera les règles de logique de cette question.",
+      "findOutMore": "En savoir plus sur la logique"
     },
     "screenReader": {
-      "copy": "Copy",
-      "delete": "Delete",
-      "moveDown": "Move down",
-      "moveUp": "Move up",
-      "deleteOption": "Delete option"
+      "copy": "Copier",
+      "delete": "Supprimer",
+      "moveDown": "Déplacer vers le bas",
+      "moveUp": "Déplacer vers le haut",
+      "deleteOption": "Supprimer l'option"
     },
     "answerOption": {
-      "maySelect": "May select",
-      "disqualify": "Disqualify",
-      "placeholder": "Enter answer text",
-      "required": "Must select",
-      "otherTooltip": "Asks participants to write an answer",
-      "noneOfTheAboveTooltip": "Prevents selection of other options",
-      "otherButton": "Add \"Other\"",
-      "addFixedAnswer": "Add fixed answer",
+      "maySelect": "Peut sélectionner",
+      "disqualify": "Disqualifier",
+      "placeholder": "Entrer le texte de la réponse",
+      "required": "Doit sélectionner",
+      "otherTooltip": "Demande aux participants d'écrire une réponse",
+      "noneOfTheAboveTooltip": "Empêche la sélection d'autres options",
+      "otherButton": "Ajouter \"Autre\"",
+      "addFixedAnswer": "Ajouter une réponse fixe",
       "fixedAnswer": {
-        "other": "Other",
-        "otherSubtitle": "Asks participants to write an answer",
-        "noneOfTheAbove": "None of the above",
-        "noneOfTheAboveSubtitle": "Prevents selection of other options"
+        "other": "Autre",
+        "otherSubtitle": "Demande aux participants d'écrire une réponse",
+        "noneOfTheAbove": "Aucune de ces réponses",
+        "noneOfTheAboveSubtitle": "Empêche la sélection d'autres options"
       },
-      "deleteButtonTooltip": "Delete"
+      "deleteButtonTooltip": "Supprimer"
     },
     "answerQuota": {
       "header": "Quota",
-      "toggleLabel": "Add quotas",
-      "inputAriaLabel": "Quota for {{answerText}}",
+      "toggleLabel": "Ajouter des quotas",
+      "inputAriaLabel": "Quota pour {{answerText}}",
       "placeholder": "Quota",
-      "ineligibleTooltipDisqualify": "Quotas aren't available on disqualifying answers.",
-      "ineligibleTooltipFixedOption": "Quotas aren't available on \"Other\" or \"None of the above\" answers.",
-      "ineligibleTooltipMustSelectAll": "Quotas aren't available when all \"Must select\" answers must be selected.",
+      "ineligibleTooltipDisqualify": "Les quotas ne sont pas disponibles pour les réponses disqualifiantes.",
+      "ineligibleTooltipFixedOption": "Les quotas ne sont pas disponibles pour les réponses \"Autre\" ou \"Aucune de ces réponses\".",
+      "ineligibleTooltipMustSelectAll": "Les quotas ne sont pas disponibles lorsque toutes les réponses \"Doit sélectionner\" doivent être sélectionnées.",
       "errors": {
-        "audience-screener-answer-quota-above-audience-quota": "Quota can't be greater than the audience quota of {{maxQuota}}.",
-        "audience-screener-answer-quota-below-reserved": "Quota can't be lower than the {{answerQuotaCompleted}} already-reserved spots."
+        "audience-screener-answer-quota-above-audience-quota": "Le quota ne peut pas être supérieur au quota d'audience de {{maxQuota}}.",
+        "audience-screener-answer-quota-below-reserved": "Le quota ne peut pas être inférieur aux {{answerQuotaCompleted}} places déjà réservées."
       }
     },
-    "questionPlaceholder": "Enter question text",
-    "randomizeAnswers": "Randomize answers",
+    "questionPlaceholder": "Entrer le texte de la question",
+    "randomizeAnswers": "Randomiser les réponses",
     "errors": {
-      "audience-screener-question-invalid": "Enter question text",
-      "audience-screener-answer-invalid": "Enter text for all answer options.",
-      "audience-screener-answer-not-unique": "Ensure all answer options are unique.",
-      "audience-screener-answer-not-qualify": "One answer option must be set to \"May select.\"",
-      "audience-branching-logic-incomplete": "Logic incomplete - select a value for each input",
-      "audience-screener-answer-multiple-other-type": "There can only be one \"Other\" answer option.",
-      "audience-screener-answer-other-option-not-last": "The \"Other\" answer option must be the last option."
+      "audience-screener-question-invalid": "Entrer le texte de la question",
+      "audience-screener-answer-invalid": "Entrer le texte pour toutes les options de réponse.",
+      "audience-screener-answer-not-unique": "Assurez-vous que toutes les options de réponse sont uniques.",
+      "audience-screener-answer-not-qualify": "Une option de réponse doit être définie sur \"Peut sélectionner\".",
+      "audience-branching-logic-incomplete": "Logique incomplète - sélectionnez une valeur pour chaque entrée",
+      "audience-screener-answer-multiple-other-type": "Il ne peut y avoir qu'une seule option de réponse \"Autre\".",
+      "audience-screener-answer-other-option-not-last": "L'option de réponse \"Autre\" doit être la dernière option."
     },
-    "characterCountdown": "Characters left: {{count}}",
+    "characterCountdown": "Caractères restants : {{count}}",
     "options": {
-      "dragTooltip": "Drag to reorder"
+      "dragTooltip": "Glisser pour réorganiser"
     },
-    "characterCountdownTemp": "Characters left: {{countdown}}",
+    "characterCountdownTemp": "Caractères restants : {{countdown}}",
     "requiredOptionSetting": {
-      "title": "Qualifying logic—behavior for \"Must select\" options",
-      "all": "All \"Must select\" answers must be selected",
-      "some": "At least one of the \"Must select\" answers must be selected"
+      "title": "Logique de qualification—comportement pour les options \"Doit sélectionner\"",
+      "all": "Toutes les réponses \"Doit sélectionner\" doivent être sélectionnées",
+      "some": "Au moins une des réponses \"Doit sélectionner\" doit être sélectionnée"
     },
     "maxScreenersReached": {
-      "title": "Maximum screener questions reached for this audience",
-      "body": "You’ve reached your subscription limit. Learn more about <RemainingScreenersCardLink>subscription plans</RemainingScreenersCardLink>"
+      "title": "Nombre maximum de questions de présélection atteint pour cette audience",
+      "body": "Vous avez atteint la limite de votre abonnement. En savoir plus sur les <RemainingScreenersCardLink>forfaits d'abonnement</RemainingScreenersCardLink>"
     },
-    "remainingScreeners_one": "{{count}} remaining question based on your subscription plan",
-    "remainingScreeners_other": "{{count}} remaining questions based on your subscription plan",
-    "availableScreeners": "{{count}} screener questions per audience included in your subscription",
-    "addLogicButton": "Add logic",
-    "addLogicTooltip": "Logic skips participants forward. Include another question to add logic."
+    "remainingScreeners_one": "{{count}} question restante selon votre forfait d'abonnement",
+    "remainingScreeners_other": "{{count}} questions restantes selon votre forfait d'abonnement",
+    "availableScreeners": "{{count}} questions de présélection par audience incluses dans votre abonnement",
+    "addLogicButton": "Ajouter une logique",
+    "addLogicTooltip": "La logique fait sauter les participants vers l'avant. Incluez une autre question pour ajouter une logique."
   },
   "screenerSuggestion": {
     "bestPracticesLink": "https://help.usertesting.com/hc/en-us/articles/11880418598557-Screener-questions-Best-practices",
-    "checkScreenerButton": "Check screener",
-    "checkScreenerTooltip": "Check for common screener mistakes. This feature is currently optimized for screeners written in English. ",
-    "checkScreenerIncompleteQuestionsText": "Complete all questions before checking your screener",
-    "checkScreenerError": "Something went wrong. Please try again.",
+    "checkScreenerButton": "Vérifier la présélection",
+    "checkScreenerTooltip": "Vérifier les erreurs courantes de présélection. Cette fonctionnalité est actuellement optimisée pour les présélections rédigées en anglais. ",
+    "checkScreenerIncompleteQuestionsText": "Complétez toutes les questions avant de vérifier votre présélection",
+    "checkScreenerError": "Quelque chose s'est mal passé. Veuillez réessayer.",
     "NO_ESCAPE": {
-      "title": "Suggestion: Consider adding an answer for when none of the options apply",
-      "description": "Add an option such as \"none of the above\" or \"other\" so participants won't select an option that's not applicable to them. <bestPracticesLink>Learn more about screener best practices</bestPracticesLink>",
-      "summary": "Consider adding an answer for when none of the options apply"
+      "title": "Suggestion : Envisagez d'ajouter une réponse pour les cas où aucune des options ne s'applique",
+      "description": "Ajoutez une option telle que \"aucune de ces réponses\" ou \"autre\" afin que les participants ne sélectionnent pas une option qui ne leur est pas applicable. <bestPracticesLink>En savoir plus sur les meilleures pratiques de présélection</bestPracticesLink>",
+      "summary": "Envisagez d'ajouter une réponse pour les cas où aucune des options ne s'applique"
     },
     "LEADING": {
-      "title": "Suggestion: Consider rephrasing to avoid leading people to certain answers",
-      "description": "People might feel inclined to give you certain answers if they can only choose between \"yes\", \"no\", or fewer than 3 answers. Rephrase the question to get the participants you want. <bestPracticesLink>Learn more about screener best practices</bestPracticesLink>",
-      "summary": "Consider rephrasing to avoid leading people to certain answers"
+      "title": "Suggestion : Envisagez de reformuler pour éviter d'orienter les gens vers certaines réponses",
+      "description": "Les gens pourraient se sentir enclins à vous donner certaines réponses s'ils ne peuvent choisir qu'entre \"oui\", \"non\" ou moins de 3 réponses. Reformulez la question pour obtenir les participants que vous souhaitez. <bestPracticesLink>En savoir plus sur les meilleures pratiques de présélection</bestPracticesLink>",
+      "summary": "Envisagez de reformuler pour éviter d'orienter les gens vers certaines réponses"
     },
     "LEADING_BINARY": {
-      "title": "Suggestion: Consider rephrasing to avoid leading people to certain answers",
-      "description": "People might feel inclined to give you certain answers if they can only choose between \"yes\", \"no\", or fewer than 3 answers. Rephrase the question to get the participants you want. <bestPracticesLink>Learn more about screener best practices</bestPracticesLink>",
-      "summary": "Consider rephrasing to avoid leading people to certain answers"
+      "title": "Suggestion : Envisagez de reformuler pour éviter d'orienter les gens vers certaines réponses",
+      "description": "Les gens pourraient se sentir enclins à vous donner certaines réponses s'ils ne peuvent choisir qu'entre \"oui\", \"non\" ou moins de 3 réponses. Reformulez la question pour obtenir les participants que vous souhaitez. <bestPracticesLink>En savoir plus sur les meilleures pratiques de présélection</bestPracticesLink>",
+      "summary": "Envisagez de reformuler pour éviter d'orienter les gens vers certaines réponses"
     },
     "LEADING_NOT_ENOUGH_ANSWERS": {
-      "title": "Suggestion: Consider adding more answers to avoid leading people to certain answers",
-      "description": "People might feel inclined to give you certain answers if they can only choose between fewer than 2 or 3 answers. Add more answers to get the participants you want. <bestPracticesLink>Learn more about screener best practices</bestPracticesLink>",
-      "summary": "Consider adding more answers to avoid leading people to certain answers"
+      "title": "Suggestion : Envisagez d'ajouter plus de réponses pour éviter d'orienter les gens vers certaines réponses",
+      "description": "Les gens pourraient se sentir enclins à vous donner certaines réponses s'ils ne peuvent choisir qu'entre moins de 2 ou 3 réponses. Ajoutez plus de réponses pour obtenir les participants que vous souhaitez. <bestPracticesLink>En savoir plus sur les meilleures pratiques de présélection</bestPracticesLink>",
+      "summary": "Envisagez d'ajouter plus de réponses pour éviter d'orienter les gens vers certaines réponses"
     },
     "VAGUE_FREQUENCY": {
-      "title": "Suggestion: Consider providing answers with specific frequencies",
-      "description": "When asking people to describe frequency, provide options that are precise to get accurate answers and the participants you want. <bestPracticesLink>Learn more about screener best practices</bestPracticesLink>",
-      "summary": "Consider providing answers with specific frequencies"
+      "title": "Suggestion : Envisagez de fournir des réponses avec des fréquences spécifiques",
+      "description": "Lorsque vous demandez aux gens de décrire la fréquence, fournissez des options précises pour obtenir des réponses exactes et les participants que vous souhaitez. <bestPracticesLink>En savoir plus sur les meilleures pratiques de présélection</bestPracticesLink>",
+      "summary": "Envisagez de fournir des réponses avec des fréquences spécifiques"
     },
     "VAGUE_QUANTITY": {
-      "title": "Suggestion: Consider providing answers with specific quantities",
-      "description": "Your answers might be too vague. Define quantity options precisely to get accurate answers and the participants you want. <bestPracticesLink>Learn more about screener best practices</bestPracticesLink>",
-      "summary": "Consider providing answers with specific quantities"
+      "title": "Suggestion : Envisagez de fournir des réponses avec des quantités spécifiques",
+      "description": "Vos réponses peuvent être trop vagues. Définissez les options de quantité avec précision pour obtenir des réponses exactes et les participants que vous souhaitez. <bestPracticesLink>En savoir plus sur les meilleures pratiques de présélection</bestPracticesLink>",
+      "summary": "Envisagez de fournir des réponses avec des quantités spécifiques"
     },
     "VAGUE_SCALE": {
-      "title": "Suggestion: Consider using a well-defined rating scale to get specific answers",
-      "description": "When asking for someone's level of agreement, experience or familiarity with something, provide a numeric rating scale to get accurate answers and the participants you want. <bestPracticesLink>Learn more about screener best practices</bestPracticesLink>",
-      "summary": "Consider using a well-defined rating scale to get specific answers"
+      "title": "Suggestion : Envisagez d'utiliser une échelle d'évaluation bien définie pour obtenir des réponses spécifiques",
+      "description": "Lorsque vous demandez le niveau d'accord, d'expérience ou de familiarité de quelqu'un avec quelque chose, fournissez une échelle d'évaluation numérique pour obtenir des réponses exactes et les participants que vous souhaitez. <bestPracticesLink>En savoir plus sur les meilleures pratiques de présélection</bestPracticesLink>",
+      "summary": "Envisagez d'utiliser une échelle d'évaluation bien définie pour obtenir des réponses spécifiques"
     },
     "OVERLAPPING": {
-      "title": "Suggestion: Provide a range of values that are comprehensive and don't overlap",
-      "description": "When asking for numerical values, provide specific and mutually exclusive options to get accurate answers and the participants you want. <bestPracticesLink>Learn more about screener best practices</bestPracticesLink>",
-      "summary": "Provide a range of values that are comprehensive and don't overlap"
+      "title": "Suggestion : Fournissez une gamme de valeurs complètes et qui ne se chevauchent pas",
+      "description": "Lorsque vous demandez des valeurs numériques, fournissez des options spécifiques et mutuellement exclusives pour obtenir des réponses exactes et les participants que vous souhaitez. <bestPracticesLink>En savoir plus sur les meilleures pratiques de présélection</bestPracticesLink>",
+      "summary": "Fournissez une gamme de valeurs complètes et qui ne se chevauchent pas"
     },
-    "suggestionAppliedTitle": "Suggestion applied",
-    "addButton": "Add",
-    "applyButton": "Apply",
-    "collapseButton": "Collapse",
-    "expandButton": "Expand",
-    "dismissButton": "Dismiss suggestion",
-    "undoButton": "Undo",
-    "reportAriaLabel": "Report bad example",
-    "reportTooltip": "Report bad example",
+    "suggestionAppliedTitle": "Suggestion appliquée",
+    "addButton": "Ajouter",
+    "applyButton": "Appliquer",
+    "collapseButton": "Réduire",
+    "expandButton": "Développer",
+    "dismissButton": "Ignorer la suggestion",
+    "undoButton": "Annuler",
+    "reportAriaLabel": "Signaler un mauvais exemple",
+    "reportTooltip": "Signaler un mauvais exemple",
     "summary": {
-      "checkScreenerButton": "Check screener",
-      "suggestionNotCheckedTitle": "Check for common screener mistakes",
-      "suggestionNotCheckedDescription": "Check that your screener follows best practices to get feedback from the right participants. This feature is currently optimized for screeners written in English. <bestPracticesLink>Learn more about how this works</bestPracticesLink>",
-      "suggestionSummaryTitle": "Screener suggestions",
-      "checkScreenerEditedHint": "Screener edited. Check again for common mistakes.",
-      "noSuggestionsTitle": "Your screener looks good",
-      "noSuggestionsDescription": "Looks like your screener is following best practices. No suggestions available at the moment.",
-      "suggestionListElement": "Question {{questionNumber}}:"
+      "checkScreenerButton": "Vérifier la présélection",
+      "suggestionNotCheckedTitle": "Vérifier les erreurs courantes de présélection",
+      "suggestionNotCheckedDescription": "Vérifiez que votre présélection suit les meilleures pratiques pour obtenir des commentaires des bons participants. Cette fonctionnalité est actuellement optimisée pour les présélections rédigées en anglais. <bestPracticesLink>En savoir plus sur le fonctionnement</bestPracticesLink>",
+      "suggestionSummaryTitle": "Suggestions de présélection",
+      "checkScreenerEditedHint": "Présélection modifiée. Vérifiez à nouveau les erreurs courantes.",
+      "noSuggestionsTitle": "Votre présélection semble correcte",
+      "noSuggestionsDescription": "Il semble que votre présélection suive les meilleures pratiques. Aucune suggestion disponible pour le moment.",
+      "suggestionListElement": "Question {{questionNumber}} :"
     },
-    "screenerSuggestionsAvailable": "Screener suggestions available",
+    "screenerSuggestionsAvailable": "Suggestions de présélection disponibles",
     "screenReader": {
-      "dismissAllSuggestions": "Dismiss all suggestions"
+      "dismissAllSuggestions": "Ignorer toutes les suggestions"
     },
-    "thanksForFeedbackToast": "Thanks for your feedback",
-    "exampleLabel": "For example:",
-    "noneOfTheAboveAnswer": "None of the above"
+    "thanksForFeedbackToast": "Merci pour votre commentaire",
+    "exampleLabel": "Par exemple :",
+    "noneOfTheAboveAnswer": "Aucune de ces réponses"
   },
   "summary": {
-    "title": "Summary",
-    "audienceTitle": "Audience Summary",
+    "title": "Résumé",
+    "audienceTitle": "Résumé de l'audience",
     "participants": "Participants",
-    "usernames": "Usernames",
-    "list": "List",
-    "participantsInList": "Participants in list",
-    "criteria": "Criteria",
-    "targetingCriteria": "Targeting criteria",
-    "viewAllCriteria": "Show all",
-    "screeners": "Screener Q's",
-    "device": "Device",
-    "anyDevice": "Any device",
-    "askForEmail": "Ask for email",
-    "reviewAndLaunch": "Review",
-    "legal": "Terms",
-    "addAvailability": "Add availability",
-    "advanced": "Advanced",
+    "usernames": "Noms d'utilisateur",
+    "list": "Liste",
+    "participantsInList": "Participants dans la liste",
+    "criteria": "Critères",
+    "targetingCriteria": "Critères de ciblage",
+    "viewAllCriteria": "Afficher tout",
+    "screeners": "Questions de présélection",
+    "device": "Appareil",
+    "anyDevice": "N'importe quel appareil",
+    "askForEmail": "Demander l'e-mail",
+    "reviewAndLaunch": "Réviser",
+    "legal": "Conditions",
+    "addAvailability": "Ajouter une disponibilité",
+    "advanced": "Avancé",
     "standard": "Standard",
     "participantIncentives": {
-      "sectionTitle": "Participant incentive",
-      "incentiveLabel": "Incentive",
-      "perParticipant": "Per participant",
+      "sectionTitle": "Incitatif pour les participants",
+      "incentiveLabel": "Incitatif",
+      "perParticipant": "Par participant",
       "total": "Total",
-      "availableBalance": "Available balance",
+      "availableBalance": "Solde disponible",
       "valueUnavailable": "—",
-      "insufficientBalanceBanner": "To launch your test, <topUpLink>top up your balance</topUpLink>.",
-      "genericBalanceErrorBanner": "Something went wrong while loading your balance.",
+      "insufficientBalanceBanner": "Pour lancer votre test, <topUpLink>rechargez votre solde</topUpLink>.",
+      "genericBalanceErrorBanner": "Quelque chose s'est mal passé lors du chargement de votre solde.",
       "topUpBalanceUrl": "https://help.usertesting.com/hc/en-us",
-      "topUpBalanceLinkAriaLabel": "Top up your balance (opens in a new tab)"
+      "topUpBalanceLinkAriaLabel": "Recharger votre solde (ouvre dans un nouvel onglet)"
     }
   },
   "recruitmentLinks": {
-    "title": "Test link",
-    "showMoreBtn": "Show panel and single-use link",
+    "title": "Lien du test",
+    "showMoreBtn": "Afficher le panneau et le lien à usage unique",
     "multiUseLink": {
-      "title": "Study link",
-      "description": "Copy and share with your participants.",
-      "QRCodeAlt": "QR code with the multi use link",
-      "copyBtn": "Copy study link",
-      "viewQRCode": "View QR code",
+      "title": "Lien de l'étude",
+      "description": "Copiez et partagez avec vos participants.",
+      "QRCodeAlt": "Code QR avec le lien multi-usages",
+      "copyBtn": "Copier le lien de l'étude",
+      "viewQRCode": "Voir le code QR",
       "QRModal": {
-        "header": "Study link QR code",
-        "actionBtn": "Download",
-        "actionBtnTooltip": "Coming soon"
+        "header": "Code QR du lien de l'étude",
+        "actionBtn": "Télécharger",
+        "actionBtnTooltip": "Bientôt disponible"
       },
       "toast": {
-        "copySuccess": "Link copied",
-        "copySuccessNotLaunched": "Link copied. Launch test before sharing it.",
-        "copyError": "Failed to copy link"
+        "copySuccess": "Lien copié",
+        "copySuccessNotLaunched": "Lien copié. Lancez le test avant de le partager.",
+        "copyError": "Échec de la copie du lien"
       }
     }
   },
   "recruitmentMethod": {
-    "title": "Who would you like to test with?",
-    "completesTooltip": "You can't change the recruitment method because the audience already has completes",
+    "title": "Avec qui souhaitez-vous tester ?",
+    "completesTooltip": "Vous ne pouvez pas changer la méthode de recrutement car l'audience a déjà des réponses complètes",
     "auto": {
-      "label": "Participants from UserTesting",
+      "label": "Participants de UserTesting",
       "utNetwork": {
-        "label": "UserTesting Networks",
-        "description": "Tell us your criteria and we'll recruit the right participants for you",
-        "collapsedSummary": "UserTesting Networks",
+        "label": "Réseaux UserTesting",
+        "description": "Indiquez-nous vos critères et nous recruterons les bons participants pour vous",
+        "collapsedSummary": "Réseaux UserTesting",
         "descriptionList": {
-          "first": "General population participants across 60+ countries",
-          "second": "Simple targeting for quick turnaround tests",
-          "third": "Default incentives automatically applied to completed tests"
+          "first": "Participants de la population générale dans plus de 60 pays",
+          "second": "Ciblage simple pour des tests à délai rapide",
+          "third": "Incitatifs par défaut automatiquement appliqués aux tests terminés"
         },
         "unlockedDescriptionList": {
-          "first": "Reach 11 million+ participants in 60+ countries",
-          "second": "Access participants from general consumers to niche specialists",
-          "third": "Set custom incentives for hard-to-reach participants "
+          "first": "Accédez à plus de 11 millions de participants dans plus de 60 pays",
+          "second": "Accédez à des participants allant des consommateurs généraux aux spécialistes de niche",
+          "third": "Définissez des incitatifs personnalisés pour les participants difficiles à atteindre "
         }
       }
     },
     "self": {
-      "label": "Your own participants",
+      "label": "Vos propres participants",
       "inviteLink": {
-        "label": "Invite via link",
-        "description": "Recruit your own participants outside of UserTesting with a shareable link",
-        "collapsedSummary": "Your own participants—via link"
+        "label": "Inviter via un lien",
+        "description": "Recrutez vos propres participants en dehors de UserTesting avec un lien partageable",
+        "collapsedSummary": "Vos propres participants—via un lien"
       }
     },
     "application": {
-      "label": "Select your own participants",
-      "description": "Select your own participants from UserTesting"
+      "label": "Sélectionnez vos propres participants",
+      "description": "Sélectionnez vos propres participants de UserTesting"
     },
     "specific": {
-      "label": "Select your own participants",
-      "description": "Select your own participants from UserTesting",
-      "collapsedSummary": "Previous participants"
+      "label": "Sélectionnez vos propres participants",
+      "description": "Sélectionnez vos propres participants de UserTesting",
+      "collapsedSummary": "Participants précédents"
     },
     "participantList": {
-      "collapsedSummary": "Participant list"
+      "collapsedSummary": "Liste de participants"
     },
     "infoPopover": {
-      "header": "Change recruitment method?",
+      "header": "Changer de méthode de recrutement ?",
       "body": {
-        "inviteLinkToPanel": "The recruitment method you’re changing to **does not support:**<ul><li>An unlimited number of participants</li><li>The ability to request their email address</li></ul>The audience name, number of participants (if not unlimited), and any screener questions added will switch to your new recruitment method.",
-        "panelToInviteLink": "If you change the recruitment method **any target criteria** set for this audience will be **deleted**.<br/><br/>The audience name, number of participants, and any screener questions added will switch to your new recruitment method."
+        "inviteLinkToPanel": "La méthode de recrutement vers laquelle vous changez **ne prend pas en charge :**<ul><li>Un nombre illimité de participants</li><li>La possibilité de demander leur adresse e-mail</li></ul>Le nom de l'audience, le nombre de participants (s'il n'est pas illimité) et toute question de présélection ajoutée passeront à votre nouvelle méthode de recrutement.",
+        "panelToInviteLink": "Si vous changez la méthode de recrutement, **tous les critères cibles** définis pour cette audience seront **supprimés**.<br/><br/>Le nom de l'audience, le nombre de participants et toute question de présélection ajoutée passeront à votre nouvelle méthode de recrutement."
       },
-      "primaryCTAButton": "Change method",
-      "secondaryCTAButton": "Keep method"
+      "primaryCTAButton": "Changer de méthode",
+      "secondaryCTAButton": "Conserver la méthode"
     }
   },
   "recruitment": {
-    "title": "Recruitment",
+    "title": "Recrutement",
     "source": {
-      "title": "Recruitment source:",
-      "auto": "UserTesting Networks",
-      "self": "Your own participants - via link",
-      "specific": "Previous participants"
+      "title": "Source de recrutement :",
+      "auto": "Réseaux UserTesting",
+      "self": "Vos propres participants - via un lien",
+      "specific": "Participants précédents"
     },
     "mode": {
-      "specified": "Add specific participants",
-      "participantList": "Select a list"
+      "specified": "Ajouter des participants spécifiques",
+      "participantList": "Sélectionner une liste"
     },
     "switchModal": {
       "toSpecific": {
-        "title": "Switch to specific participants?",
-        "description": "Any targeting criteria, screener questions, or confidentiality terms will be removed when you switch.",
-        "cancel": "Cancel",
-        "confirm": "Add specific participants"
+        "title": "Passer à des participants spécifiques ?",
+        "description": "Tous les critères de ciblage, questions de présélection ou conditions de confidentialité seront supprimés lorsque vous changerez.",
+        "cancel": "Annuler",
+        "confirm": "Ajouter des participants spécifiques"
       },
       "toList": {
-        "title": "Switch to a list?",
-        "description": "Any targeting criteria, screener questions, or confidentiality terms will be removed when you switch.",
-        "cancel": "Cancel",
-        "confirm": "Switch to list"
+        "title": "Passer à une liste ?",
+        "description": "Tous les critères de ciblage, questions de présélection ou conditions de confidentialité seront supprimés lorsque vous changerez.",
+        "cancel": "Annuler",
+        "confirm": "Passer à la liste"
       }
     },
     "selectedPanelists": {
-      "title": "Add participant usernames:",
-      "placeholder": "Type or paste usernames separated by commas",
-      "hint": "Press Enter to add usernames",
-      "noPanelists": "No participants added yet",
-      "noPanelistsSuggestion": "Add participant usernames to include them in your test",
-      "participantsAdded_one": "{{count}} participant added",
-      "participantsAdded_other": "{{count}} participants added",
+      "title": "Ajouter des noms d'utilisateur de participants :",
+      "placeholder": "Tapez ou collez des noms d'utilisateur séparés par des virgules",
+      "hint": "Appuyez sur Entrée pour ajouter des noms d'utilisateur",
+      "noPanelists": "Aucun participant ajouté pour le moment",
+      "noPanelistsSuggestion": "Ajoutez des noms d'utilisateur de participants pour les inclure dans votre test",
+      "participantsAdded_one": "{{count}} participant ajouté",
+      "participantsAdded_other": "{{count}} participants ajoutés",
       "remaining_one": "+ {{count}} participant",
       "remaining_other": "+ {{count}} participants",
-      "participantsAddedInfo": "Once you launch your test, your selected participants will receive an invite.",
-      "removeParticipant": "Remove participant {{alias}}",
+      "participantsAddedInfo": "Une fois que vous lancerez votre test, vos participants sélectionnés recevront une invitation.",
+      "removeParticipant": "Supprimer le participant {{alias}}",
       "errors": {
-        "empty": "Add at least one participant to launch this test.",
-        "warning": "{{usernames}} can't be added. Enter a valid UserTesting Networks username.",
-        "used_one": "{{usernames}} is already added to an audience in this test.",
-        "used_other": "{{usernames}} are already added to an audience in this test."
+        "empty": "Ajoutez au moins un participant pour lancer ce test.",
+        "warning": "{{usernames}} ne peut pas être ajouté. Entrez un nom d'utilisateur Réseaux UserTesting valide.",
+        "used_one": "{{usernames}} est déjà ajouté à une audience dans ce test.",
+        "used_other": "{{usernames}} sont déjà ajoutés à une audience dans ce test."
       }
     },
     "quota": {
-      "title": "Number of participants:"
+      "title": "Nombre de participants :"
     }
   },
   "participantListPicker": {
-    "title": "Select a list",
-    "subtitle": "Choose a list of participants to invite to your test",
-    "label": "Selected list:",
+    "title": "Sélectionner une liste",
+    "subtitle": "Choisissez une liste de participants à inviter à votre test",
+    "label": "Liste sélectionnée :",
     "emptyState": {
-      "title": "No participants added yet",
-      "description": "Select a list to add participants",
-      "button": "Select list"
+      "title": "Aucun participant ajouté pour le moment",
+      "description": "Sélectionnez une liste pour ajouter des participants",
+      "button": "Sélectionner une liste"
     },
     "boundState": {
-      "changeButton": "Change list",
-      "quotaLabel": "Number of participants to invite:",
-      "quotaInfoTooltip": "Participants from this list are invited until your target is reached",
-      "removeButtonAriaLabel": "Remove selected list"
+      "changeButton": "Changer de liste",
+      "quotaLabel": "Nombre de participants à inviter :",
+      "quotaInfoTooltip": "Les participants de cette liste sont invités jusqu'à ce que votre objectif soit atteint",
+      "removeButtonAriaLabel": "Supprimer la liste sélectionnée"
     },
     "card": {
       "participantsLabel_one": "{{count}} participant",
       "participantsLabel_other": "{{count}} participants",
-      "creatorLabel": "Creator: {{name}}",
-      "disabledEmpty": "Lists with no participants can't be selected",
-      "disabledInUse": "List already added to an audience in this test"
+      "creatorLabel": "Créateur : {{name}}",
+      "disabledEmpty": "Les listes sans participants ne peuvent pas être sélectionnées",
+      "disabledInUse": "Liste déjà ajoutée à une audience dans ce test"
     },
     "modal": {
-      "cancel": "Cancel",
-      "confirm": "Select list",
-      "loading": "Loading lists…"
+      "cancel": "Annuler",
+      "confirm": "Sélectionner une liste",
+      "loading": "Chargement des listes…"
     }
   },
   "recruitmentSelection": {
-    "title": "Where do you want to get participants from?",
-    "separator": "or",
+    "title": "D'où voulez-vous obtenir des participants ?",
+    "separator": "ou",
     "specific": {
-      "label": "Previous participants",
-      "description": "Select participants you've tested with before from UserTesting Networks"
+      "label": "Participants précédents",
+      "description": "Sélectionnez des participants avec lesquels vous avez testé auparavant depuis les Réseaux UserTesting"
     }
   },
   "reviewPage": {
-    "addAudience": "Add audience",
-    "copyLink": "Test link",
-    "surveyLink": "Survey link",
-    "showMoreDetails": "Show more details",
-    "showFewerDetails": "Show fewer details",
-    "previewScreeners": "Preview screener Q's",
-    "copyLinkBtn": "Copy link",
-    "copyLinkBtnSuccess": "Link copied",
-    "selfRecruitLinksBanner": "You will find links to invite your own participants once the test is launched.",
+    "addAudience": "Ajouter une audience",
+    "copyLink": "Lien du test",
+    "surveyLink": "Lien du sondage",
+    "showMoreDetails": "Afficher plus de détails",
+    "showFewerDetails": "Afficher moins de détails",
+    "previewScreeners": "Prévisualiser les questions de présélection",
+    "copyLinkBtn": "Copier le lien",
+    "copyLinkBtnSuccess": "Lien copié",
+    "selfRecruitLinksBanner": "Vous trouverez les liens pour inviter vos propres participants une fois le test lancé.",
     "specificAudience": {
-      "noParticipantsBanner": "Add at least one participant to launch this test"
+      "noParticipantsBanner": "Ajoutez au moins un participant pour lancer ce test"
     },
     "sharedPanelistWarning": {
-      "iconLabel": "Some participants in this audience are also included in another audience for this study.",
-      "tooltip": "Some participants in this audience are also included in another audience for this study. They may be invited more than once."
+      "iconLabel": "Certains participants de cette audience sont également inclus dans une autre audience pour cette étude.",
+      "tooltip": "Certains participants de cette audience sont également inclus dans une autre audience pour cette étude. Ils peuvent être invités plus d'une fois."
     },
     "inviteNetworkMode": {
       "label": "Mode",
-      "instantLink": "Send an instant link",
-      "scheduledSessions": "Scheduled sessions"
+      "instantLink": "Envoyer un lien instantané",
+      "scheduledSessions": "Sessions programmées"
     },
     "availability": {
-      "sectionTitle": "Scheduler",
-      "sessionLengthLabel": "Session length",
-      "bufferTimeLabel": "Buffer time",
-      "bookingNoticeLabel": "Booking notice",
-      "sessionStartLabel": "Session start",
-      "anyTime": "Any time",
-      "quarterHour": "On the quarter-hour",
-      "halfHour": "On the half-hour",
-      "hour": "On the hour",
-      "dailySessionLimitLabel": "Daily session limit",
-      "availabilityLabel": "Availability",
-      "showAllLabel": "Show all",
-      "showLessLabel": "Show less",
-      "minutes": "{{count}} mins",
-      "hours": "{{count}} hours",
-      "days_one": "{{count}} day",
-      "days_other": "{{count}} days",
-      "editScheduler": "Edit Scheduler",
+      "sectionTitle": "Planificateur",
+      "sessionLengthLabel": "Durée de la session",
+      "bufferTimeLabel": "Temps tampon",
+      "bookingNoticeLabel": "Préavis de réservation",
+      "sessionStartLabel": "Début de session",
+      "anyTime": "N'importe quand",
+      "quarterHour": "Au quart d'heure",
+      "halfHour": "À la demi-heure",
+      "hour": "À l'heure",
+      "dailySessionLimitLabel": "Limite de sessions quotidiennes",
+      "availabilityLabel": "Disponibilité",
+      "showAllLabel": "Afficher tout",
+      "showLessLabel": "Afficher moins",
+      "minutes": "{{count}} min",
+      "hours": "{{count}} heures",
+      "days_one": "{{count}} jour",
+      "days_other": "{{count}} jours",
+      "editScheduler": "Modifier le planificateur",
       "errors": {
-        "campaign-insufficient-availability": "Insufficient availability to cover all sessions."
+        "campaign-insufficient-availability": "Disponibilité insuffisante pour couvrir toutes les sessions."
       },
-      "days": "{{count}} days",
-      "unscheduledSchedulerInfoBanner": "All audiences in this study use the instant link — participants join on demand, no calendar or booking required."
+      "days": "{{count}} jours",
+      "unscheduledSchedulerInfoBanner": "Toutes les audiences de cette étude utilisent le lien instantané — les participants se joignent à la demande, aucun calendrier ou réservation requis."
     },
     "availabilityBanner": {
-      "addMore": "Add more availability"
+      "addMore": "Ajouter plus de disponibilité"
     }
   },
   "customIncentive": {
-    "sectionTitle": "Participant incentive",
-    "infoButtonAriaLabel": "More information about participant incentive",
+    "sectionTitle": "Incitatif pour les participants",
+    "infoButtonAriaLabel": "Plus d'informations sur l'incitatif pour les participants",
     "infoPopover": {
-      "title": "Custom incentives",
-      "subtitle": "Powered by User Interviews",
-      "body": "Custom incentives currently are only supported when selecting advanced targeting criteria."
+      "title": "Incitatifs personnalisés",
+      "subtitle": "Propulsé par User Interviews",
+      "body": "Les incitatifs personnalisés ne sont actuellement pris en charge que lors de la sélection de critères de ciblage avancés."
     },
-    "calculatorLink": "Incentive calculator",
+    "calculatorLink": "Calculateur d'incitatifs",
     "calculatorHelpUrl": "https://help.usertesting.com/hc/en-us",
-    "cardTitle": "Custom",
-    "amountInputAriaLabel": "Custom incentive amount",
+    "cardTitle": "Personnalisé",
+    "amountInputAriaLabel": "Montant de l'incitatif personnalisé",
     "premiumBadge": "Premium",
-    "description": "Set the total incentive you want the participant to receive",
-    "invalidAmountRangeError": "Enter an amount between {{defaultAmount}} and {{maxAmount}}",
-    "defaultStateTitle": "Default",
-    "defaultStateDescription": "Payments are covered by UserTesting"
+    "description": "Définissez l'incitatif total que vous souhaitez que le participant reçoive",
+    "invalidAmountRangeError": "Entrez un montant entre {{defaultAmount}} et {{maxAmount}}",
+    "defaultStateTitle": "Par défaut",
+    "defaultStateDescription": "Les paiements sont couverts par UserTesting"
   },
   "legal": {
-    "sectionTitle": "Confidentiality terms",
+    "sectionTitle": "Conditions de confidentialité",
     "cardSection": {
-      "title": "Customizable text",
-      "contentTitle": "Content",
-      "contentText": "In this test we will collect your feedback and information for a research project. This information will be encrypted and protected in accordance with our security best practices.",
-      "contentCharacterCountdown": "Characters left: {{count}}",
-      "consentTitle": "Checkbox",
-      "consentSectionTitle": "Consent",
-      "consentText": "I understand that my feedback and information will be collected for a research project",
-      "contentPlaceholder": "Enter content",
-      "consentPlaceholder": "Enter checkbox text",
-      "contentCharacterCountdownTemp": "Characters left: {{countdown}}",
-      "consentSubtitle": "Only participants who select the checkbox will take the test",
-      "contentSubtitle": "Secure URLs (https only) can be included to create clickable links",
-      "deleteButton": "Delete",
-      "dragTooltip": "Drag to reorder",
-      "addCheckbox": "Add checkbox",
-      "deleteOption": "Delete option"
+      "title": "Texte personnalisable",
+      "contentTitle": "Contenu",
+      "contentText": "Dans ce test, nous recueillerons vos commentaires et informations pour un projet de recherche. Ces informations seront cryptées et protégées conformément à nos meilleures pratiques de sécurité.",
+      "contentCharacterCountdown": "Caractères restants : {{count}}",
+      "consentTitle": "Case à cocher",
+      "consentSectionTitle": "Consentement",
+      "consentText": "Je comprends que mes commentaires et informations seront recueillis pour un projet de recherche",
+      "contentPlaceholder": "Entrer le contenu",
+      "consentPlaceholder": "Entrer le texte de la case à cocher",
+      "contentCharacterCountdownTemp": "Caractères restants : {{countdown}}",
+      "consentSubtitle": "Seuls les participants qui cochent la case pourront passer le test",
+      "contentSubtitle": "Les URL sécurisées (https uniquement) peuvent être incluses pour créer des liens cliquables",
+      "deleteButton": "Supprimer",
+      "dragTooltip": "Glisser pour réorganiser",
+      "addCheckbox": "Ajouter une case à cocher",
+      "deleteOption": "Supprimer l'option"
     },
     "errors": {
-      "audience-legal-invalid": "Enter content",
-      "audience-legal-consents-invalid": "Enter checkbox text",
-      "audience-legal-consents-invalid-multiple": "Enter text for all checkboxes"
+      "audience-legal-invalid": "Entrer le contenu",
+      "audience-legal-consents-invalid": "Entrer le texte de la case à cocher",
+      "audience-legal-consents-invalid-multiple": "Entrer le texte pour toutes les cases à cocher"
     },
     "legalReader": {
-      "delete": "Delete"
+      "delete": "Supprimer"
     },
-    "noLegal": "Ask participants to review and approve any confidentiality terms",
-    "addLegalConsent": "Add confidentiality terms",
+    "noLegal": "Demandez aux participants d'examiner et d'approuver les conditions de confidentialité",
+    "addLegalConsent": "Ajouter des conditions de confidentialité",
     "infoModal": {
-      "title": "Confidentiality terms",
-      "body": "We’ve added a default template with generic data privacy text. You can delete it, edit the text, and add secure URLs linking to your specific terms. Links open in a new tab for participants.<br/>Participant data needs to be protected, with region specific laws like the California Consumer Privacy Act (CCPA) now common place. <br/>These laws mean it’s mandatory to ask participants for their <explicitConsentLink>explicit consent</explicitConsentLink> if you’re collecting any personal information (for example, their name or email).",
+      "title": "Conditions de confidentialité",
+      "body": "Nous avons ajouté un modèle par défaut avec un texte générique sur la confidentialité des données. Vous pouvez le supprimer, modifier le texte et ajouter des URL sécurisées renvoyant à vos conditions spécifiques. Les liens s'ouvrent dans un nouvel onglet pour les participants.<br/>Les données des participants doivent être protégées, avec des lois spécifiques à chaque région comme le California Consumer Privacy Act (CCPA) désormais courantes. <br/>Ces lois signifient qu'il est obligatoire de demander aux participants leur <explicitConsentLink>consentement explicite</explicitConsentLink> si vous collectez des informations personnelles (par exemple, leur nom ou leur e-mail).",
       "primaryButton": "OK"
     },
     "deleteModal": {
-      "body": "If you're collecting personal information from participants—in some regions, for example the United States or European Union—it’s mandatory to ask for their consent.",
-      "title": "Delete confidentiality terms?"
+      "body": "Si vous collectez des informations personnelles auprès des participants—dans certaines régions, par exemple aux États-Unis ou dans l'Union européenne—il est obligatoire de demander leur consentement.",
+      "title": "Supprimer les conditions de confidentialité ?"
     }
   },
   "preview": {
-    "previewScreenerBtn": "Preview screener Q's",
-    "previewLegalBtn": "Preview confidentiality terms"
+    "previewScreenerBtn": "Prévisualiser les questions de présélection",
+    "previewLegalBtn": "Prévisualiser les conditions de confidentialité"
   },
   "branchingLogic": {
-    "otherwiseRulePlaceholder": "select a question",
-    "otherwiseRuleTitle": "Otherwise go to",
-    "singleSelectRule": "If the answer is",
-    "multiSelectRule": "If the answer contains",
-    "goTo": "go to",
-    "selectAnswerPlaceholder": "select answer",
-    "selectQuestionPlaceholder": "select question",
-    "title": "Logic",
-    "deleteLogicTooltip": "Delete logic",
-    "deleteRuleTooltip": "Delete Rule",
-    "giveFeedback": "Give feedback",
-    "addRule": "Add rule",
-    "addAnswerText": "Add answer text",
-    "addLogic": "Logic added to this question"
+    "otherwiseRulePlaceholder": "sélectionner une question",
+    "otherwiseRuleTitle": "Sinon aller à",
+    "singleSelectRule": "Si la réponse est",
+    "multiSelectRule": "Si la réponse contient",
+    "goTo": "aller à",
+    "selectAnswerPlaceholder": "sélectionner une réponse",
+    "selectQuestionPlaceholder": "sélectionner une question",
+    "title": "Logique",
+    "deleteLogicTooltip": "Supprimer la logique",
+    "deleteRuleTooltip": "Supprimer la règle",
+    "giveFeedback": "Donner un commentaire",
+    "addRule": "Ajouter une règle",
+    "addAnswerText": "Ajouter le texte de la réponse",
+    "addLogic": "Logique ajoutée à cette question"
   },
   "addAudience": {
-    "title": "Which type of audience do you want to add?",
+    "title": "Quel type d'audience souhaitez-vous ajouter ?",
     "newAudienceCard": {
-      "title": "New audience",
-      "description": "Choose who you'd like to test with, and set specific criteria to match your research needs."
+      "title": "Nouvelle audience",
+      "description": "Choisissez avec qui vous souhaitez tester et définissez des critères spécifiques pour répondre à vos besoins de recherche."
     },
     "reuseAudience": {
-      "title": "Reuse an audience",
-      "description": "Reuse audience settings from tests launched in this workspace-these settings are editable.",
-      "iconAriaLabel": "More information for audience {{#}}"
+      "title": "Réutiliser une audience",
+      "description": "Réutilisez les paramètres d'audience des tests lancés dans cet espace de travail—ces paramètres sont modifiables.",
+      "iconAriaLabel": "Plus d'informations pour l'audience {{#}}"
     },
     "platformOptions": {
-      "label": "Launched in:",
-      "new": "New experience",
-      "classic": "Classic experience",
-      "ariaLabel": "Choose the source of your reusable audiences",
-      "tooltip": "Switch between audiences launched from either the new or classic UserTesting experience"
+      "label": "Lancé dans :",
+      "new": "Nouvelle expérience",
+      "classic": "Expérience classique",
+      "ariaLabel": "Choisissez la source de vos audiences réutilisables",
+      "tooltip": "Basculer entre les audiences lancées depuis la nouvelle ou l'ancienne expérience UserTesting"
     },
-    "searchPlaceholder": "Search by audience or project name",
-    "createdByYou": "Created by you",
-    "createdByOthers": "Created by others",
-    "createdByAnyone": "All creators",
-    "allRecruitmentTypes": "All recruitment types",
-    "favouriteAudiences": "Favorite audiences",
-    "allAudiences": "All audiences",
+    "searchPlaceholder": "Rechercher par nom d'audience ou de projet",
+    "createdByYou": "Créé par vous",
+    "createdByOthers": "Créé par d'autres",
+    "createdByAnyone": "Tous les créateurs",
+    "allRecruitmentTypes": "Tous les types de recrutement",
+    "favouriteAudiences": "Audiences favorites",
+    "allAudiences": "Toutes les audiences",
     "noReusableAudiences": {
-      "title": "No audiences to reuse yet",
-      "description": "Try a different name or switch workspaces"
+      "title": "Aucune audience à réutiliser pour le moment",
+      "description": "Essayez un nom différent ou changez d'espace de travail"
     },
     "noFavouriteReusableAudiences": {
-      "title": "No favorite audiences yet",
-      "description": "Mark an audience as “favorite” to easily find it later"
+      "title": "Aucune audience favorite pour le moment",
+      "description": "Marquez une audience comme \"favorite\" pour la retrouver facilement plus tard"
     },
     "noAudiencesMatch": {
-      "title": "No audiences in this workspace match that name",
-      "description": "Once a test is launched the audience can be reused"
+      "title": "Aucune audience dans cet espace de travail ne correspond à ce nom",
+      "description": "Une fois qu'un test est lancé, l'audience peut être réutilisée"
     },
-    "userTestingNetwork": "UserTesting Networks",
-    "inviteViaLink": "Invite via link",
-    "previousParticipants": "Previous participants"
+    "userTestingNetwork": "Réseaux UserTesting",
+    "inviteViaLink": "Inviter via un lien",
+    "previousParticipants": "Participants précédents"
   },
   "audienceCard": {
-    "auto": "UserTesting Networks participants",
-    "self": "Your own participants",
-    "screenerQuestions": "Screener Q's",
-    "fromTest": "From test: ",
-    "fromUserTestingClassic": "From UserTesting classic",
+    "auto": "Participants des Réseaux UserTesting",
+    "self": "Vos propres participants",
+    "screenerQuestions": "Questions de présélection",
+    "fromTest": "Du test : ",
+    "fromUserTestingClassic": "De UserTesting classique",
     "criteria": {
-      "additional_one": "+ {{count}} criterion",
-      "additional_other": "+ {{count}} criteria"
+      "additional_one": "+ {{count}} critère",
+      "additional_other": "+ {{count}} critères"
     },
-    "select": "Select",
+    "select": "Sélectionner",
     "popover": {
-      "audienceSettingsHeader": "Audience settings",
-      "screenerQuestionsHeader": "Screener Q's ({{count}})",
+      "audienceSettingsHeader": "Paramètres d'audience",
+      "screenerQuestionsHeader": "Questions de présélection ({{count}})",
       "screenerQuestions": {
-        "additional_one": "+ {{count}} more...",
-        "additional_other": "+ {{count}} more..."
+        "additional_one": "+ {{count}} de plus...",
+        "additional_other": "+ {{count}} de plus..."
       },
       "incentive": {
-        "default": "Default incentives",
-        "custom": "Custom incentives: ${{amount}} per participant"
+        "default": "Incitatifs par défaut",
+        "custom": "Incitatifs personnalisés : {{amount}} $ par participant"
       },
       "legal": {
-        "default": "Default confidentiality terms",
-        "custom": "Custom confidentiality terms",
-        "noLegal": "No confidentiality terms"
+        "default": "Conditions de confidentialité par défaut",
+        "custom": "Conditions de confidentialité personnalisées",
+        "noLegal": "Aucune condition de confidentialité"
       },
-      "launched": "Last used"
+      "launched": "Dernière utilisation"
     },
-    "moreInformation": "More information for {{count}} audience",
+    "moreInformation": "Plus d'informations pour l'audience {{count}}",
     "favorites": {
       "markFavoriteAudience": {
-        "buttonLabel": "Mark {{audienceName}} as favorite",
-        "toastMessage": "<b>{{audienceName}}</b> marked as favorite",
-        "tooltip": "Mark as favorite"
+        "buttonLabel": "Marquer {{audienceName}} comme favorite",
+        "toastMessage": "<b>{{audienceName}}</b> marquée comme favorite",
+        "tooltip": "Marquer comme favorite"
       },
       "unmarkFavoriteAudience": {
-        "buttonLabel": "Unmark {{audienceName}} as favorite",
-        "toastMessage": "<b>{{audienceName}}</b> unmarked as favorite",
-        "tooltip": "Unmark as favorite"
+        "buttonLabel": "Retirer {{audienceName}} des favorites",
+        "toastMessage": "<b>{{audienceName}}</b> retirée des favorites",
+        "tooltip": "Retirer des favorites"
       }
     }
   },
   "estimatedPool": {
-    "title": "Estimated pool",
-    "refreshAriaLabel": "Refresh audience reach",
-    "reachLabel": "{{reach}} reach",
-    "placeholderStandardAudience": "Add advanced criteria to see your audience reach.",
+    "title": "Pool estimé",
+    "refreshAriaLabel": "Actualiser la portée de l'audience",
+    "reachLabel": "Portée {{reach}}",
+    "placeholderStandardAudience": "Ajoutez des critères avancés pour voir la portée de votre audience.",
     "reachNames": {
-      "veryNarrow": "Very narrow",
-      "narrow": "Narrow",
-      "moderate": "Moderate",
-      "broad": "Broad",
-      "veryBroad": "Very broad"
+      "veryNarrow": "Très étroite",
+      "narrow": "Étroite",
+      "moderate": "Modérée",
+      "broad": "Large",
+      "veryBroad": "Très large"
     }
   }
 }
