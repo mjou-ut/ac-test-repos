@@ -1,0 +1,78 @@
+{
+  "loading": {
+    "generic": "Cargando"
+  },
+  "notificationBanner": {
+    "close": "Cerrar notificación"
+  },
+  "sidebar": {
+    "addAudience": "Agregar audiencia",
+    "addBtn": "Agregar",
+    "title": "Audiencias",
+    "disabledTooltip": "Selecciona con quién te gustaría probar en tu audiencia actual antes de agregar otra",
+    "warning": "Método de reclutamiento no seleccionado",
+    "addDisabledTooltip": "Pausa el estudio para poder agregar audiencias",
+    "completeAudienceBeforeAdding": "Selecciona con quién te gustaría probar en tu audiencia actual antes de agregar otra",
+    "deleteButton": {
+      "hasCompletesTooltip": "Tienes respuestas de esta audiencia, no se puede eliminar.",
+      "hasScheduledSessionsTooltip": "Esta audiencia tiene sesiones programadas, no se puede eliminar."
+    },
+    "duplicateAudienceModal": {
+      "title": "Duplicar audiencia",
+      "inputLabel": "Nombrar nueva audiencia",
+      "inputPlaceholder": "Ingresar nombre de audiencia",
+      "description": "Cualquier criterio de segmentación, preguntas de selección y términos de confidencialidad que hayas configurado se copiarán. Puedes editarlos más tarde. <br><br> Tu nueva audiencia se agregará a la sección \"Audiencias\".",
+      "copyInputAudienceName": "(COPIA) {{audienceName}}"
+    },
+    "deleteAudienceModal": {
+      "title": "¿Eliminar audiencia?",
+      "description": "Esta audiencia se eliminará permanentemente y se quitará de la sección \"Audiencias\".",
+      "confirm": "Eliminar",
+      "cancel": "Mantener audiencia"
+    }
+  },
+  "generic": {
+    "audiences": "Audiencias"
+  },
+  "settings": {
+    "defaultName": "Audiencia sin título",
+    "defaultCampaignName": "Prueba sin título",
+    "quotaLabel": "¿Cuántos participantes necesitas?",
+    "unlimitedLabel": "Ilimitado",
+    "errors": {
+      "audience-quota-zero": "Ingresa un número mayor que 0",
+      "audience-quota-above-max": "Límite de participantes excedido. Ingresa {{maxQuota}} o menos.",
+      "audience-quota-below-completes": "Ingresa un número igual o mayor que las ({{completes}}) respuestas",
+      "audience-quota-below-completes-live-conversation": "Ingresa un número igual o mayor que tus respuestas totales y sesiones programadas ({{completes}})",
+      "audience-participant-list-size-below-quota": "Solo {{participantCount}} participantes en esta lista. Ingresa {{participantCount}} o menos, o selecciona otra lista."
+    }
+  },
+  "shared": {
+    "noAudiencesMessage": "Comienza a reclutar tus participantes agregando una audiencia objetivo",
+    "noAudiencesTitle": "¿De quién quieres aprender?"
+  },
+  "common": {
+    "add": "Agregar",
+    "and": "y",
+    "delete": "Eliminar",
+    "or": "o",
+    "to": "a",
+    "close": "Cerrar",
+    "loading": "Cargando",
+    "edit": "Editar",
+    "moveUp": "Subir",
+    "moveDown": "Bajar",
+    "duplicate": "Duplicar",
+    "default": "Predeterminado",
+    "custom": "Personalizado",
+    "none": "Ninguno",
+    "back": "Atrás",
+    "other": "Otro",
+    "view": "Ver",
+    "cancel": "Cancelar",
+    "clear": "Limpiar",
+    "all": "Todos",
+    "new": "Nuevo",
+    "years": "años"
+  }
+}
