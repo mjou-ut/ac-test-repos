@@ -1,0 +1,21 @@
+{
+  "loading": {
+    "generic": "Chargement"
+  },
+  "notificationBanner": {
+    "close": "Fermer la notification"
+  },
+  "sidebar": {
+    "addAudience": "Ajouter une audience",
+    "addBtn": "Ajouter",
+    "title": "Audiences",
+    "disabledTooltip": "Sélectionnez avec qui vous souhaitez tester dans votre audience actuelle avant d'en ajouter une autre",
+    "warning": "Méthode de recrutement non sélectionnée",
+    "addDisabledTooltip": "Mettez l'étude en pause pour pouvoir ajouter des audiences",
+    "completeAudienceBeforeAdding": "Sélectionnez avec qui vous souhaitez tester dans votre audience actuelle avant d'en ajouter une autre",
+    "deleteButton": {
+      "hasCompletesTooltip": "Vous avez des réponses de cette audience, elle ne peut pas être supprimée.",
+      "hasScheduledSessionsTooltip": "Cette audience a des sessions programmées, elle ne peut pas être supprimée."
+    }
+  }
+}
